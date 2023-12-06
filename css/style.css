@@ -14,13 +14,13 @@ header {
 }
 
 /* Navigation styles */
-nav {
+.headerNav {
     display: inline-block;
     vertical-align: middle;
 }
 
 /* List items in navigation */
-li {
+.headerNav li {
     display: inline-block;
 }
 
@@ -176,4 +176,52 @@ li {
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0.12px;
+}
+
+/* Footer syles */
+footer {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #2A9D8F;
+    padding: 90px 130px;
+}
+
+/* Footer logo */
+.footerLogo {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2A9D8F;
+    margin-right: 920px;
+}
+
+/* Footer navgiation bar styles */
+.footerNav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Styles of title inside footer navigation bar */
+.footerNav h2 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 21px;
+}
+
+/* Footer navigation bar links */
+.footerLink {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* Middle list item */
+.termsLi {
+    margin-block: 8px;
 }
