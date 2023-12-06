@@ -41,7 +41,7 @@ li {
 }
 
 /* Article styles */
-article {
+.article1 {
     width: 780px;
     margin: 200px auto;
 }
@@ -75,4 +75,63 @@ article {
 .articleText1 {
     margin-top: 60px;
     margin-bottom: 52px;
+}
+
+/* First section styles */
+.section1 {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 80px 130px;
+    background-color: #C2F3EE;
+}
+
+/* Section1 tree image styles */
+.treeImg {
+    width: 600px;
+    height: 560px;
+    vertical-align: top;
+}
+
+/* Section1 article styles */
+.sect1Article {
+    width: 457px;
+    margin-left: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Section1 title styles */
+.sect1Title {
+    color: #272727;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.16px;
+}
+
+/* Section1 text styles */
+.sect1Text {
+    color: #515151;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.09px;
+    margin-top: 27px;
+    margin-bottom: 45px;
+}
+
+/* Section1 butto styles */
+.sect1Button {
+    padding: 11px 16px;
+    background-color: #2A9D8F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
 }
