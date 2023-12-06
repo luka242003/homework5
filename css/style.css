@@ -1,0 +1,41 @@
+/* Header styles */
+header {
+    background-color: #2A9D8F;
+    margin: auto;
+    width: 1440px;
+    padding: 38px 130px;
+}
+
+/* Logo image styles */
+.logoImg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 845px;
+}
+
+/* Navigation styles */
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* List items in navigation */
+li {
+    display: inline-block;
+}
+
+/* Post nav element styles */
+.postNav {
+    margin-inline: 51px;
+}
+
+/* Navigation links styles */
+.navLink {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Nerko One', sans-serif;
+}
